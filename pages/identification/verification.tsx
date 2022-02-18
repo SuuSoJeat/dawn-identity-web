@@ -22,7 +22,7 @@ export default function Verification() {
             autoComplete="username"
             required
             placeholder="Username"
-            className="dark:bg-midnight focus:border-crimson caret-crimson block w-full rounded-md border-2 border-transparent focus:outline-none focus:ring-0 focus-visible:outline-none "
+            className="dark:bg-midnight focus:border-crimson caret-crimson block w-full rounded-md border-2 border-transparent placeholder:text-slate-500 focus:outline-none focus:ring-0 focus-visible:outline-none"
           />
           <input
             name="password"
@@ -30,7 +30,7 @@ export default function Verification() {
             autoComplete="current-password"
             required
             placeholder="Password"
-            className="dark:bg-midnight focus:border-crimson caret-crimson block w-full rounded-md border-2 border-transparent focus:outline-none focus:ring-0 focus-visible:outline-none "
+            className="dark:bg-midnight focus:border-crimson caret-crimson block w-full rounded-md border-2 border-transparent placeholder:text-slate-500 focus:outline-none focus:ring-0 focus-visible:outline-none "
           />
         </div>
         <button
